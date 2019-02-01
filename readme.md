@@ -35,7 +35,7 @@ If you discover any security related issues, please email author email instead o
 
 ## Credits
 
-- [Oğuzcan Demircan][https://github.com/oguzcandemircan]
+- [Oguzcan Demircan](https://github.com/oguzcandemircan)
 - [All Contributors][link-contributors]
 
 ## License
