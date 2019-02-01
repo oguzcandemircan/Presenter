@@ -1,0 +1,43 @@
+{
+    "name": "oguzcandemircan/presenter",
+    "description": "Laravel Presenter",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Oğuzcan Demircan",
+            "email": "demircanoguzcan@gmail.com",
+            "homepage": "https://oguzcandemircan.github.io"
+        }
+    ],
+    "homepage": "https://github.com/oguzcandemircan/presenter",
+    "keywords": ["Laravel", "Presenter", "Presenter Group", "Url presenter", "Resource url presenter"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OguzcanDemircan\\Presenter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OguzcanDemircan\\Presenter\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OguzcanDemircan\\Presenter\\PresenterServiceProvider"
+            ],
+            "aliases": {
+                "Presenter": "OguzcanDemircan\\Presenter\\Facades\\Presenter"
+            }
+        }
+    }
+}
